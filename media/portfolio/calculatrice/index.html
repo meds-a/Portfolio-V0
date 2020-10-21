@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        
+            <div class="main">
+                <form name="form">
+                    <input type="text" class="textview">
+                </form>
+                <table>
+                    <tr>
+                        <td><input class="button" type="button" value="AC"  onclick="supprimer()"></td>
+                        <td><input class="button" type="button" value="C" onclick="effacer()"></td>
+                        <td><input class="button" type="button" value="/"  onclick="showValue(this)"></td>
+                        <td><input class="button" type="button" value="*"  onclick="showValue(this)"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="button" type="button" value="7" onclick="showValue(this)" ></td>
+                        <td><input class="button" type="button" value="8" onclick="showValue(this)" ></td>
+                        <td><input class="button" type="button" value="9"  onclick="showValue(this)"></td>
+                        <td><input class="button" type="button" value="-"  onclick="showValue(this)"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="button" type="button" value="4"  onclick="showValue(this)"></td>
+                        <td><input class="button" type="button" value="5"  onclick="showValue(this)"></td>
+                        <td><input class="button" type="button" value="6"  onclick="showValue(this)"></td>
+                        <td><input class="button" type="button" value="+"  onclick="showValue(this)"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="button" type="button" value="1"  onclick="showValue(this)"></td>
+                        <td><input class="button" type="button" value="2" onclick="showValue(this)" ></td>
+                        <td><input class="button" type="button" value="3" onclick="showValue(this)" ></td>
+                        <td rowspan="5"><input class="button" id="egal" type="button" value="=" onclick="calculer(this)"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" ><input class="button" id="zero" type="button" value="0" onclick="showValue(this)"></td>
+                        <td><input class="button" type="button" value="." onclick="showValue(this)"></td>
+                    </tr>
+                </table>
+            </div>
+    <script text="javascript" src="script.js"></script>
+</body>
+
+</html>

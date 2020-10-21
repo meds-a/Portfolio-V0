@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ body {
+     background: url(./iimg/math.jpg);
+ }
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    background: #607d9b;
+    border: none;
+    color: white;
+
+}
+.textview {
+    width: 200px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    /* border: none; */
+    color: #607d9b;
+}
+#egal {
+    height: 100px;
+}
+#zero {
+  width: 106px;  
+}
+.main {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+
